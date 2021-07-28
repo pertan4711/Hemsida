@@ -1,8 +1,0 @@
-{
-	"Colors": {
-		"Favorite": "green"
-	},
-	"ConnectionStrings": {
-		"HemsidaConnectionString": "server=.;Database=HemsidaDb;Integrated Security=true;MultipleActiveResultSets=true;"
-	}
-}
