@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Hemsida.Views
 {
-    public class TestModel : PageModel
+    public class CoursesModel : PageModel
     {
         public string Message { get; set; }
 
