@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.Tests", "We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hemsida", "Hemsida\Hemsida.csproj", "{4CEB81D9-AEE4-44EF-9DE5-4106BD59EEF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemsida.Core", "Hemsida.Core\Hemsida.Core.csproj", "{522D396F-1B9B-45D3-A6FA-639EC44C1E5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hemsida.Core", "Hemsida.Core\Hemsida.Core.csproj", "{522D396F-1B9B-45D3-A6FA-639EC44C1E5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemsida.Data", "Hemsida.Data\Hemsida.Data.csproj", "{1BA3C196-2301-433B-80AC-E59AA5A31781}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hemsida.Data", "Hemsida.Data\Hemsida.Data.csproj", "{1BA3C196-2301-433B-80AC-E59AA5A31781}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

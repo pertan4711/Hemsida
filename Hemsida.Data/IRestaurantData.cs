@@ -8,6 +8,7 @@ namespace Hemsida.Data
     public interface IRestaurantData
     {
         IEnumerable<Restaurant> GetRestaurantByName(string name);
+        Restaurant GetById(int id);
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -24,6 +25,11 @@ namespace Hemsida.Data
                 new Restaurant { Id = 4, Name = "Prime Burger", Cuisine = Restaurant.CuisineType.American, Location = "Hantverkargatan" },
                 new Restaurant { Id = 5, Name = "Uffe & Lottas", Cuisine = Restaurant.CuisineType.Swedish, Location = "Kungsholmsgatan" },
             };
+        }
+
+        public Restaurant GetById(int id)
+        {
+            return restaurants.SingleOrDefault(r => r.Id == id);
         }
 
         public IEnumerable<Restaurant> GetRestaurantByName(string name = null)

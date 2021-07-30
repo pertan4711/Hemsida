@@ -17,6 +17,7 @@ namespace Hemsida.Pages.Restaurants
 
         public string Message { get; set; }
         public IEnumerable<Restaurant> Restaurants { get; set; }
+        
         [BindProperty(SupportsGet = true)]
         public string SearchTerm { get; set; }
 
