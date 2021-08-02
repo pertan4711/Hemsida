@@ -13,6 +13,9 @@ namespace Hemsida.Pages.Restaurants
     {
         private readonly IRestaurantData restaurantData;
 
+        [TempData]
+        public string Message { get; set; }
+
         public Restaurant Restaurant { get; set; }
 
         public DetailModel(IRestaurantData restaurantData)
