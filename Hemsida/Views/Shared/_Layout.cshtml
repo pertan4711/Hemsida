@@ -35,12 +35,15 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    @*<footer class="border-top footer">*@
         <div class="container">
-            @RenderSection("footer", required: false)
+            <vc:restaurant-count></vc:restaurant-count>
+            <div>
+                @RenderSection("footer", required: false)
+            </div>
             &copy; 2021 - Pertans Hemsida - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
-    </footer>
+    @*</footer>*@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

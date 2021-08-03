@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{FA4192EC-C051-47A2-A9E4-D0D5335184C7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.Tests", "WebApplication1.Tests\WebApplication1.Tests.csproj", "{DCEFF2E1-6733-4FF7-A4C7-5F24A72CF630}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hemsida", "Hemsida\Hemsida.csproj", "{4CEB81D9-AEE4-44EF-9DE5-4106BD59EEF4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hemsida.Core", "Hemsida.Core\Hemsida.Core.csproj", "{522D396F-1B9B-45D3-A6FA-639EC44C1E5A}"
@@ -19,14 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FA4192EC-C051-47A2-A9E4-D0D5335184C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA4192EC-C051-47A2-A9E4-D0D5335184C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA4192EC-C051-47A2-A9E4-D0D5335184C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA4192EC-C051-47A2-A9E4-D0D5335184C7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DCEFF2E1-6733-4FF7-A4C7-5F24A72CF630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DCEFF2E1-6733-4FF7-A4C7-5F24A72CF630}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCEFF2E1-6733-4FF7-A4C7-5F24A72CF630}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DCEFF2E1-6733-4FF7-A4C7-5F24A72CF630}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4CEB81D9-AEE4-44EF-9DE5-4106BD59EEF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4CEB81D9-AEE4-44EF-9DE5-4106BD59EEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CEB81D9-AEE4-44EF-9DE5-4106BD59EEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU

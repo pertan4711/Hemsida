@@ -1,7 +1,9 @@
 ﻿@using Hemsida.Core
 @model Restaurant
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper *, AuthoringTagHelpers
 
-<div class="panel panel-default">
+<div class="panel alert">
     <div class="panel-heading">
         <h3>@Model.Name</h3>
     </div>
@@ -9,7 +11,7 @@
         <span>Location: @Model.Location</span>
         <span>Cuisine: @Model.Cuisine</span>
     </div>
-    <div class="panel-footer">
+    <div class="panel">
         <a class="btn btn-primary"
            asp-page="./Detail"
            asp-route-restaurantId="@Model.Id">
