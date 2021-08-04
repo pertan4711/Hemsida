@@ -1,5 +1,8 @@
+using Hemsida.Data;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
@@ -13,7 +16,20 @@ namespace Hemsida
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args).Build().Run();
+            var host = CreateHostBuilder(args).Build();
+
+            MigrateDatabase(host);
+
+            host.Run();
+        }
+
+        private static void MigrateDatabase(IHost host)
+        {
+            using(var scope = host.Services.CreateScope())
+            {
+                var db = scope.ServiceProvider.GetRequiredService<HemsidaDbContext>();
+                db.Database.Migrate();
+            }
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
